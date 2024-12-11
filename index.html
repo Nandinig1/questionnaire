@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="text-heading" style="text-align: center;">Welcome to the Test</h1>
+        <!-- <p>Answer the questions below. Click "Submit" to see your score.</p> -->
+         <div  style="display: flex;  justify-content: space-around;"> 
+        <p class="bg-test" style="color:rgb(235, 73, 40);border: 1px solid black;padding: 15px 24px; border-radius: 0.5rem;font-weight: 800;">
+            <a href="englishQuestions.html" style="text-decoration: none;">English </a></p>
+           <p class="bg-test" style="color:blue;border:1px solid black;padding: 15px 24px; border-radius:0.5rem; font-weight:800;">
+            <a href="mathsQuestion.html" style="text-decoration: none;"> Maths</a></p>
+           <p class="bg-test"  style="color: black; border: 1px solid black; padding: 15px 24px; border-radius:0.5rem; font-weight: 800; display: inline-block; text-align: center; cursor: pointer;">
+            <a href="evsQuestion.html" style="text-decoration: none;">EVS</a></p>
+   </div>
+        <form id="questionnaire-form">
+            <div id="question-container"></div>
+            <!-- <button type="button" id="Next-btn">Next</button> -->
+
+        </form>
+        <p id="thank-you-message" style="display: none;">Thank you for completing the questionnaire!</p>
+        <p id="score-message" style="display: none;">Your score is: <span id="score"></span></p>
+    </div>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
